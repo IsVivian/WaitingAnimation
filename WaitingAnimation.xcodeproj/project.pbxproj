@@ -14,6 +14,7 @@
 		4BFD472F1DB5BA3D00F6D08E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BFD472D1DB5BA3D00F6D08E /* LaunchScreen.storyboard */; };
 		4BFD473A1DB5BA3D00F6D08E /* WaitingAnimationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFD47391DB5BA3D00F6D08E /* WaitingAnimationTests.swift */; };
 		4BFD47451DB5BA3D00F6D08E /* WaitingAnimationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFD47441DB5BA3D00F6D08E /* WaitingAnimationUITests.swift */; };
+		4BFD47531DB5BA7700F6D08E /* WaitingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFD47521DB5BA7700F6D08E /* WaitingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		4BFD47401DB5BA3D00F6D08E /* WaitingAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WaitingAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BFD47441DB5BA3D00F6D08E /* WaitingAnimationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaitingAnimationUITests.swift; sourceTree = "<group>"; };
 		4BFD47461DB5BA3D00F6D08E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BFD47521DB5BA7700F6D08E /* WaitingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaitingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				4BFD47241DB5BA3D00F6D08E /* AppDelegate.swift */,
 				4BFD47261DB5BA3D00F6D08E /* ViewController.swift */,
+				4BFD47521DB5BA7700F6D08E /* WaitingView.swift */,
 				4BFD47281DB5BA3D00F6D08E /* Main.storyboard */,
 				4BFD472B1DB5BA3D00F6D08E /* Assets.xcassets */,
 				4BFD472D1DB5BA3D00F6D08E /* LaunchScreen.storyboard */,
@@ -258,6 +261,7 @@
 			files = (
 				4BFD47271DB5BA3D00F6D08E /* ViewController.swift in Sources */,
 				4BFD47251DB5BA3D00F6D08E /* AppDelegate.swift in Sources */,
+				4BFD47531DB5BA7700F6D08E /* WaitingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
